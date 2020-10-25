@@ -1,0 +1,14 @@
+khat : Bloc de Chat pour XOOPS basé sur Chatouille
+
+HEAVILY based on PHP_Chat_Light script
+http://www.key5.com/chat/default.php3
+From Nicola Delbono : key5@key5.com
+
+V0.1 à v0.5 modularization by 
+Pierre-Yves GOSSET (pyg@exiup.com)
+
+V0.9 et v1.0 adaptation en bloc pour XOOPS
+kyex pour http://kyex.inconnueteam.net et http://www.inconnueteam.net
+
+v1.02 et > : version pour XOOPS2 - réécriture du code
+kyex pour http://www.inconnueteam.net

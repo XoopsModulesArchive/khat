@@ -1,0 +1,15 @@
+<HTML><HEAD>
+<{if $khatimeout != 0}>
+<META HTTP-EQUIV="REFRESH" CONTENT="<{$khatimeout}>; URL=<{$option_pop}>&refresh=<{$hasard}>>
+<{/if}>
+</HEAD>
+<BODY>
+
+    echo "<script>\n var chat = parent.document.getElementById(\"miaou\");\n";
+    //$inHTML = str_replace("\\","\\\\",$inHTML);
+    $inHTML = str_replace("\"","\\\"",$inHTML);  // inutile avec htmlspecialchar en amont  (ENT_QUOTE)
+    echo "chat.innerHTML = \"$inHTML\";\n";
+    echo "parent.scrollBy(0,200);";
+    echo "</script>\n";
+
+</BODY></HTML>

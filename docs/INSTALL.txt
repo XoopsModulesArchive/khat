@@ -1,0 +1,25 @@
+chmod 755 sur le répertoire cache et 666 sur les fichiers de ce répertoire
+Activez dans le menu administration le module de Chat 
+Ensuite vous pouvez activer le bloc correspondant.
+
+Vous disposez dans le bloc de quatres options :
+-Hauteur de l'IFRAME en pixel
+-Nombres de lignes afffichées
+-Nombre de caractères en saisie : taille du champ de saise
+-Visualisation seulement : Le bloc ne fait qu'afficher le contenu du chat, ce dernier est accessible via le bouton Popup
+----------
+
+chmod 755 the cache directory and 666 the files inside
+Activate khat in the modules administration.
+Then you can make the block visible and modify options in blocks administration
+
+The options are
+- height of the IFRAME in pixel
+- Number of displayed lines
+- Size of input box in chars
+- Read only : Block only display chat content, full access via popup button.
+
+(I need someone to better translate the language files and this file, thanks)
+(mailto: kyexoops@hotmail.com)
+
+

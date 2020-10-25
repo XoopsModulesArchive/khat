@@ -1,0 +1,96 @@
+CHANGELOG
+
+Module khat
+
+26/05/2003 - v1.1(beta) : réécriture en objet
+-1 classe et 2 sous-classes avec chacunes une méthode de stockage différente: fichier texte, Base de données,fichier CSV
+- => création d'une table
+-mise à jour de l'administration
+-réduction de fonctions.php au minimum : AfficherEnteteHTML, en attendant une template...
+
+
+18/05/2003 - v1.03 : debuggage
+-modification structure : les fichiers à la racine du site
+
+29/03/2003 - V1.02a : remise au telechargement de khat pour Xoops2 sur inconnueTeam.net
+-correction bug sur bouton smilies: il manque un \n apres <-- ligne 17
+-duplication de xoops_version.php dans le repertoire blocks pour forcer la vérification des permissions
+08/03/2003 - V1.02
+-version pour Xoopsv2 : juste une adaptation pour tenir compte des modif de xoopsjs.php
+
+20/12/2002 - V1.01 (non publique)
+-suppression test navigateur (cela permet une utilisation avec des navigateurs recents autres que IE)
+-correction bug Afficheligne de fonction.php: le HTML ne marchait plus
+
+01/10/2002 - V1.00
+-On passe en 1.0 stable avant la RC3.1 de Xoops
+-Possibilité de choisir le sens d'affichage des messages. Toujours un pb de scrollbar si on affichage le dernier message en bas
+
+06/2002 - V0.98
+-Correction de bug de rafraichissement
+
+01/09/2002 - V0.99
+-Gestion de la date avec les fonctions de Xoops
+-Personnalisation de l'affichage de la date
+
+21/04/2002 - V0.97
+- Utilisation d'innerHTML pour eviter le flachs du rafraichissement
+- Utilisation de <meta httq-equiv="Refresh..> au lieu de window.setTimeout
+- Joue un son si nouveau message (même fichier que pour le hack des PM)
+- mode Visualisation pour le bloc (pas pour le popup) pour voir les derniers msg
+
+09/02/2002 - V0.95
+- parametres hauteur iframe et nb lignes pour le bloc
+- fichiers langue
+- msg.txt et config.txt  en chmod 666 dans répertoire cache
+- regroupement des fonctions communues dans include/fonctions.php
+
+02/02/2002 - V0.9
+version XOOPS par kyex
+- adaptation en bloc XOOPS
+- réorganisation des fichiers, modification et nettoyage du code
+  pour suivre le modèle des modules XOOPS.
+- changement du nom du module pour le différencier de la lignée officielle ;)
+
+--------------------------------------------------------
+
+Module Chatouille
+01/11/2001 - v0.5
+- prise en compte de Netscape
+
+25/10/2001 - v0.4
+- Utilisation d'iframes
+- regroupement des variables dans un fichier config.php
+
+10/10/2001 - v0.3
+- Passage à un seul script (index.php) rendant le fichier chat.php inutile
+
+08/10/2001 - v0.2
+- fix : correction de nommage de la variable $chat_file
+- ajout : fonction CutLongWord evitant la déformation de bloc
+- dev : concentration des variables de configuration en tête de fichier
+- plus grande utilisation des CSS
+
+20/09/2001 - v0.1
+
+
+
+
+TODO
+
+Module Chatouille v0.5
+- nettoyage du code
+- traduction
+- utilisation d'une base MySQL (nouveau module)
+
+
+Module Chatouille v0.3
+- utilsation d'iframes -> ok
+
+
+Module Chatouille v0.1
+
+- commenter le code des fichiers chat.php et index.php -> ok
+- traduction fichier INSTALL
+- création d'un fichier CSS -> ok
+- internationalisation : création d'un fichier de langue
